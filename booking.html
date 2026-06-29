@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <title>SX14</title>
+    </head>
+    <body>
+         <form method="GET">
+            <table align="center" >
+                <caption>Create Booking</caption>
+                <tr>
+                    <td><label>CustomerName:</label></td>
+                    <td><input type="text" name="txtcusname"><br></td>
+                </tr>
+                <tr>
+                    <td><label>Tel:</label></td>
+                    <td><input type="text" name="txtTel"><br></td>
+                </tr>
+                <tr>
+                    <td><label>Gender:</label></td>
+                    <td>
+                        <input type="radio" name="txtGender" value="Female">Female
+                        <input type="radio" name="txtGender" value="Male">Male
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>Check In Date:</label></td>
+                    <td><input type="date" name="dateCheckIn"></td>
+                </tr>
+                <tr>
+                    <td><label>Total Day</label></td>
+                    <td><input type="number" name="txtTotalDay" min="1"></td>
+                </tr>
+                <tr>
+                    <td><label>Room Number:</label></td>
+                    <td>
+                        <select name="Rnum" multiple>
+                            <option value="">101</option>
+                            <option value="">102</option>
+                            <option value="">103</option>
+                            <option value="">104</option>
+                            <option value="">105</option>
+                            <option value="">106</option>
+                            <option value="">107</option>
+                            <option value="">108</option>
+                            <option value="">109</option>
+                            <option value="">110</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit"></td>
+                </tr>              
+                </table>
+         </form>
+    </body>
+</html>
